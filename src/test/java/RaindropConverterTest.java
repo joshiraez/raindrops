@@ -87,7 +87,6 @@ public class RaindropConverterTest {
         assertEquals("Plong", raindropConverter.convert(49));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void noSoundFor52() {
         assertEquals("52", raindropConverter.convert(52));
