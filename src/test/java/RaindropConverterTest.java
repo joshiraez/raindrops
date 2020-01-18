@@ -92,7 +92,6 @@ public class RaindropConverterTest {
         assertEquals("52", raindropConverter.convert(52));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void soundFor105IsPlingPlangPlongAsItHasFactors3And5And7() {
         assertEquals("PlingPlangPlong", raindropConverter.convert(105));
