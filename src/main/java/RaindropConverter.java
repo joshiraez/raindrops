@@ -1,7 +1,7 @@
 class RaindropConverter {
 
     String convert(int number) {
-        return "1";
+        return String.valueOf(number);
     }
 
 }
