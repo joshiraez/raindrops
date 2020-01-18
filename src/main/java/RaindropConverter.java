@@ -4,7 +4,7 @@ class RaindropConverter {
 
         if (hasFactor(number, 3)) return "Pling";
         if (hasFactor(number, 5)) return "Plang";
-        if(number == 7) return "Plong";
+        if (hasFactor(number, 7)) return "Plong";
 
         return String.valueOf(number);
     }
