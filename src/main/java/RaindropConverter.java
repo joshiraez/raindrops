@@ -4,6 +4,7 @@ class RaindropConverter {
 
         if(number == 3) return "Pling";
         if(number == 5) return "Plang";
+        if(number == 7) return "Plong";
 
         return String.valueOf(number);
     }
